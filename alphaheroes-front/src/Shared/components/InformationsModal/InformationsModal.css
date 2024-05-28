@@ -1,0 +1,18 @@
+.settings-item {
+  color: var(--theme-text);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  cursor: "pointer";
+}
+
+.settings-item:hover {
+  color: var(--theme-color) !important;
+}
+
+.settings-button {
+  cursor: pointer;
+}
+
+.settings-button:hover {
+  fill: var(--theme-text);
+}

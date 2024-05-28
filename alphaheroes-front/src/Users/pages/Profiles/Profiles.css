@@ -1,0 +1,6 @@
+.avatar-image-modal:hover {
+  filter: drop-shadow(0 0 1em var(--theme-color));
+}
+.avatar-image-modal.react:hover {
+  filter: drop-shadow(0 0 1em var(--theme-color));
+}

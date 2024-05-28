@@ -1,0 +1,35 @@
+@startuml
+title Project: Apprentissage de l'Alphabet
+
+actor Enfant as User1
+actor Parent as User2
+actor Enseignant as User3
+
+component System {
+    component Frontend {
+        [React + TypeScript] as FrontendTech
+    }
+    component Backend {
+        [Node.js + Nest.js] as BackendTech
+        component Database {
+            [PostgreSQL] as DatabaseTech
+        }
+    }
+}
+
+User1 --> System
+User2 --> System
+User3 --> System
+
+Frontend --> Backend
+
+System --> User1 : feedback
+System --> User2 : feedback
+System --> User3 : feedback
+
+note right of System
+    Définir les objectifs d'apprentissage, le contenu et la progression
+    Créer des illustrations et définir la charte graphique
+    Mettre en œuvre la protection des données des utilisateurs et le contrôle d’accès
+end note
+@enduml

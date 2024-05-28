@@ -1,0 +1,19 @@
+.Logo-end {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.Logo-end:hover {
+  filter: drop-shadow(0 0 1.5em var(--theme-color));
+}
+.Logo.react:hover {
+  filter: drop-shadow(0 0 1.5em var(--theme-color));
+}
+
+/* .card-parent:hover {
+  filter: drop-shadow(0 0 0.3em var(--theme-color));
+} */
+
+.scroller::-webkit-scrollbar {
+  display: none;
+}

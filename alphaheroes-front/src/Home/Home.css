@@ -1,0 +1,11 @@
+.Logo {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.Logo:hover {
+  filter: drop-shadow(0 0 1.5em var(--theme-color));
+}
+.Logo.react:hover {
+  filter: drop-shadow(0 0 1.5em var(--theme-color));
+}
