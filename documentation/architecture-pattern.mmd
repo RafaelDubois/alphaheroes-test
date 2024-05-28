@@ -1,6 +1,0 @@
-graph LR
-A[User] --> |REST API Requests| B(NestJS API)
-B --> |Data Access Queries| C(Sequelize)
-C --> |Database| D(PostgreSQL)
-B --> |React Components| E(React Frontend)
-E --> |User Interactions| A
